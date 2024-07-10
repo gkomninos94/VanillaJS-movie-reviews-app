@@ -1,8 +1,9 @@
 # Movie reviews project
 * Technologies: HTML, CSS, VanillaJS, Node.js, MongoDB
 
+# Run project locally
 * First install Node.js. For more information click this link https://nodejs.org/en/download/package-manager
-
+* Clone repo with git bash
 * Create a .env file in the project root folder
 * Provide username and password for database connetction with MongoDB
 ```bash
