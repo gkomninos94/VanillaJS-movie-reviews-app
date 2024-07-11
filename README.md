@@ -3,6 +3,11 @@
 
 # Run project locally
 * First install Node.js. For more information click this link https://nodejs.org/en/download/package-manager
+* If fnm is used do not forget to type this command in PowerShell (for Windows only). Look here for other OS https://github.com/Schniz/fnm#shell-setup
+```bash
+fnm env --use-on-cd | Out-String | Invoke-Expression
+```
+
 * Clone repo with git bash
 * Create a .env file in the project root folder
 * Provide username and password for database connetction with MongoDB
